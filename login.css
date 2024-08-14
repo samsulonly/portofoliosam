@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+body{
+    background: var(--bg-color);
+}
+.wrapper {
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: var(--second-bg-color);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 1.2rem;
+}
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid var(--second-bg-color);
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: var(--bg-color);
+}
+button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: var(--bg-color);
+    cursor: pointer;
+    background: var(--main-color);
+    transition: .5s ease;
+}
+button:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 0.5rem var(--main-color);
+}
+input {
+    color: var(--text-color);
+}
+input:focus {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+.terms {
+    margin-top: 0.2rem;
+}
+.terms input {
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label {
+    font-size: 0.7rem;
+    color: var(--text-color);
+}
+.terms a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+.member {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: var(--text-color);
+}
+.member a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+.recover {
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recover a {
+    text-decoration: none;
+    color: var(--main-color);
+}
